@@ -156,7 +156,7 @@ namespace Player {
         const feet = Levels.get(cx, Math.idiv(hero.bottom - 3, 16))
         if (feet == Art.T.LiqTop || feet == Art.T.Liq) { fallOut(true); return }
         if (feet == Art.T.Shards) { hurt(cx * 16 + 8); if (inv > 1400) hero.vy = -150 }
-        if (hero.top > 15 * 16) { fallOut(false); return }
+        if (hero.top > 12 * 16) { fallOut(false); return }
 
         // ---- remember a safe spot (solid floor, nothing nasty nearby) ----
         if (hero.isHittingTile(CollisionDirection.Bottom)) {
