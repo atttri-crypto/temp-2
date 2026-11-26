@@ -1,0 +1,34 @@
+{
+    "name": "temp #2",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "data.ts",
+        "art.ts",
+        "levels.ts",
+        "player.ts",
+        "ui.ts",
+        "entities.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable4.1",
+        "tag": "v4.1.32",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/d33d588c5969b2d378dfbd071a603c3f067e2b13",
+        "target": "4.1.32",
+        "pxt": "13.1.29",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
